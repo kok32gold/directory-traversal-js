@@ -21,6 +21,10 @@
   "dependencies": {
     "path": "0.12.7"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kok32gold/directory-traversal-js.git"
+  },
   "author": "Ben Ari Kutai",
-  "license": "ISC"
+  "license": "ISC",
 }

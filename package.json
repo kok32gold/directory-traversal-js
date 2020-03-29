@@ -2,9 +2,10 @@
   "name": "directory-traversal-js",
   "version": "0.0.4",
   "description": "protect file upload & filenames with directory traversal",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc index.ts"
   },
   "keywords": [
     "directory",
@@ -14,6 +15,12 @@
     "files",
     "hack"
   ],
+  "devDependencies": {
+    "typescript": "2.7.2"
+  },
+  "dependencies": {
+    "path": "0.12.7"
+  },
   "author": "Ben Ari Kutai",
   "license": "ISC"
 }

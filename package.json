@@ -1,0 +1,19 @@
+{
+  "name": "directory-traversal-js",
+  "version": "0.0.4",
+  "description": "protect file upload & filenames with directory traversal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "directory",
+    "traversal",
+    "filename",
+    "hacking",
+    "files",
+    "hack"
+  ],
+  "author": "Ben Ari Kutai",
+  "license": "ISC"
+}

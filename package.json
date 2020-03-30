@@ -1,16 +1,13 @@
 {
   "name": "directory-traversal-js",
-  "version": "0.0.9",
+  "version": "0.0.6",
   "description": "protect file upload & filenames with directory traversal",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc index.ts",
-    "test": "jest"
+    "build": "tsc index.ts"
   },
   "keywords": [
-    "path-traversal",
-    "directory-traversal",
     "directory",
     "traversal",
     "filename",
@@ -19,20 +16,11 @@
     "hack"
   ],
   "devDependencies": {
-    "@babel/core": "7.9.0",
-    "@babel/preset-env": "7.9.0",
-    "@babel/preset-typescript": "7.9.0",
-    "@types/node": "12.7.4",
-    "babel-jest": "25.2.4",
-    "jest": "25.2.4",
-    "typescript": "3.7.4"
+    "typescript": "2.7.2"
   },
   "dependencies": {
     "path": "0.12.7"
   },
-  "files": [
-    "dist/**/*"
-  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/kok32gold/directory-traversal-js.git"

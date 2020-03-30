@@ -5,9 +5,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc index.ts"
+    "build": "tsc src/index.ts",
+    "test": "jest"
   },
   "keywords": [
+    "path-traversal",
+    "directory-traversal",
     "directory",
     "traversal",
     "filename",
@@ -16,7 +19,13 @@
     "hack"
   ],
   "devDependencies": {
-    "typescript": "2.7.2"
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-typescript": "7.9.0",
+    "@types/node": "12.7.4",
+    "babel-jest": "25.2.4",
+    "jest": "25.2.4",
+    "typescript": "3.7.4"
   },
   "dependencies": {
     "path": "0.12.7"

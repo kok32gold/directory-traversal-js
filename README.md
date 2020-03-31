@@ -17,7 +17,7 @@ $ npm install --save directory-traversal-js
 
 Javascript
 ```js
-var directoryTraversalManager = require('directory-traversal-js');
+const directoryTraversalManager = require('directory-traversal-js');
 
 const path = directoryTraversalManager.safeJoin(rootPath, filename)
 ```
